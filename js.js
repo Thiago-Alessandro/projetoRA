@@ -3,6 +3,6 @@ let divTarget = document.querySelector("#divTarget")
 let comecar = true;
 
 if(comecar){
-    console.log(target);
+    divTarget.innerHTML = ""
     console.log(divTarget)
 }
