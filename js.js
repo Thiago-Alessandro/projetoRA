@@ -1,10 +1,19 @@
 let target = document.querySelector("#target");
 let divTarget = document.querySelector("#divTarget")
-let comecar = true;
+let comecou = false;
 
-if(comecar){
-    console.log(divTarget.innerHTML)
-    //divTarget.innerHTML = ""
-    console.log(divTarget)
-    console.log(target)
+let botao = document.querySelector("#botao")
+
+divTarget.innerHTML = botao;
+if(comecou){
+    // console.log(divTarget.innerHTML)
+    // //divTarget.innerHTML = ""
+    // console.log(divTarget)
+    // console.log(target)
+    divTarget.innerHTML = target;
+}
+
+
+function comecar(){
+    comecou = true;
 }
