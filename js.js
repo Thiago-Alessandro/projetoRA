@@ -4,13 +4,14 @@ let comecou = false;
 
 let botao = document.querySelector("#botao")
 
-divTarget.innerHTML = botao.innerHTML;
+divTarget.innerHTML = "";
+divTarget.appendChild(botao)
 if(comecou){
     // console.log(divTarget.innerHTML)
     // //divTarget.innerHTML = ""
     // console.log(divTarget)
     // console.log(target)
-    divTarget.innerHTML = target.innerHTML;
+    divTarget.appendChild(target);
 }
 
 
