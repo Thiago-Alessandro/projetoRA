@@ -24,6 +24,6 @@ function comecar() {
 
 function removeChildren(){
     for(child of divTarget.children){
-        div.removeChild(child)
+        divTarget.removeChild(child)
     }
 }
