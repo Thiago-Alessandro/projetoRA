@@ -11,10 +11,11 @@ if (comecou) {
     // //divTarget.innerHTML = ""
     // console.log(divTarget)
     // console.log(target)
-
+    
 }
 
 
 function comecar() {
     divTarget = target
+    console.log("cliquei")
 }
