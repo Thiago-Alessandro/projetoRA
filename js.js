@@ -4,7 +4,7 @@ let comecou = false;
 
 let botao = document.querySelector("#botao")
 
-divTarget.removeChildren()
+removeChildren()
 divTarget.append(botao)
 
 // // if (comecou) {
@@ -17,7 +17,7 @@ divTarget.append(botao)
 
 
 function comecar() {
-    divTarget.removeChildren()
+    removeChildren()
     divTarget.append(target)
     console.log("cliquei")
 }
