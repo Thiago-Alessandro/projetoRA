@@ -11,10 +11,12 @@ if(comecou){
     // //divTarget.innerHTML = ""
     // console.log(divTarget)
     // console.log(target)
-    divTarget.appendChild(target);
+    
 }
 
 
 function comecar(){
     comecou = true;
+    divTarget.innerHTML = ""
+    divTarget.appendChild(target);
 }
