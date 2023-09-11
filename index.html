@@ -1,38 +1,11 @@
-<html>
-
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <script src="https://aframe.io/releases/1.4.2/aframe.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.1/dist/aframe-extras.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mind-ar@1.2.2/dist/mindar-image-aframe.prod.js"></script>
-</head>
-
-<body style="display:flex; flex-direction:column; width:100%; align-items:center;">
-
-
-  <div id="divTarget">
-    <a-scene id="target"
-      mindar-image="imageTargetSrc: https://cdn.jsdelivr.net/gh/hiukim/mind-ar-js@1.2.2/examples/image-tracking/assets/card-example/card.mind;  uiError:no; uiLoading:no; uiScanning:no"
-      color-space="sRGB" renderer="colorManagement: true, physicallyCorrectLights" vr-mode-ui="enabled: false"
-      device-orientation-permission-ui="enabled: false">
-
-      <a-assets>
-        <!-- <a-asset-item id="manoelGomes" src="caneta_azul/scene.gltf"> -->
-      </a-assets>
-
-      <a-camera position="0 0 0" look-controls="enabled: false" cursor="fuse: false; rayOrigin: mouse;"
-        raycaster="far: ${customFields.libVersion}; objects: .clickable">
-      </a-camera>
-
-      <a-entity mindar-image-target="targetIndex: 0">
-        <!-- <a-gltf-model id="example-plane" class="clickable" src="#manoelGomes" rotation="0 0 0 " position="0 -0.5 0"> -->
-      </a-entity>
-
-    </a-scene>
-    <button id="botao" onclick="comecar()">clique aqui para comecar!</button>
+<div class="w-screen h-screen flex justify-center bg-blue-500"><img
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUKVtbImX6lxO0JnjjKZiFZXvWsdA4NPo8pbIrJRKnaA&s" alt=""
+    class="w-[830px] h-[566px] oi fixed top-0">
+  <div class="w-[631px] h-[834px] bg-white z-50 px-8 py-6 rounded-lg">  <div
+      class="flex flex-col w-full  gap-4 items-start">
+      <p class="title">Insertadora de Bobinas</p>
+      <p class="subtitle">the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more
+        recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p> 
+    </div>
   </div>
-
-  <script src="js.js"></script>
-</body>
-
-</html>
+</div>
