@@ -4,10 +4,8 @@ let comecou = false;
 
 let botao = document.querySelector("#botao")
 
-divTarget.outerHTML = "";
-divTarget.innerHTML = "";
-divTarget.outerHTML = botao.outerHTML
-divTarget.innerHTML = botao.innerHTML
+divTarget = botao
+divTarget = innerHTML
 
 if (comecou) {
     // console.log(divTarget.innerHTML)
@@ -19,9 +17,6 @@ if (comecou) {
 
 
 function comecar() {
-    divTarget.outerHTML = "";
-    divTarget.innerHTML = "";
-    divTarget.outerHTML = target.outerHTML
-    divTarget.innerHTML = target.innerHTML
-
+    divTarget = outerHTML
+    divTarget = innerHTML
 }
