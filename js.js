@@ -5,7 +5,6 @@ let comecou = false;
 let botao = document.querySelector("#botao")
 
 divTarget = botao
-divTarget = innerHTML
 
 if (comecou) {
     // console.log(divTarget.innerHTML)
@@ -17,6 +16,5 @@ if (comecou) {
 
 
 function comecar() {
-    divTarget = outerHTML
-    divTarget = innerHTML
+    divTarget = target
 }
