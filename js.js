@@ -4,18 +4,26 @@ let comecou = false;
 
 let botao = document.querySelector("#botao")
 
-divTarget = botao
+divTarget.removeChildren()
+divTarget.append(botao)
 
-if (comecou) {
-    // console.log(divTarget.innerHTML)
-    // //divTarget.innerHTML = ""
-    // console.log(divTarget)
-    // console.log(target)
-    
-}
+// // if (comecou) {
+//     console.log(divTarget.innerHTML)
+//     divTarget.innerHTML = ""
+//     console.log(divTarget)
+//     console.log(target)
+
+// }
 
 
 function comecar() {
-    divTarget = target
+    divTarget.removeChildren()
+    divTarget.append(target)
     console.log("cliquei")
+}
+
+function removeChildren(){
+    for(child of divTarget.children){
+        div.removeChild(child)
+    }
 }
